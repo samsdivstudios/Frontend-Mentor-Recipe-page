@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Code:wght@300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.wrapper {
+    max-width: 650px;
+    height: auto;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+header {
+    max-width: 100%;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+section {
+    max-width: 100%;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.preparation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 50px;
+    border-radius: 10px;
+    color: hsl(332, 51%, 32%);
+    background-color: hsla(31, 53%, 90%, 0.189);
+}
+
+h3, ul{
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    max-width: 100%;
+    margin-left: 12px;
+}
+
+p, ul, ol{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
+}
+
+strong {
+    font-weight: 900;
+    color: hsl(24, 5%, 18%);   
+}
+
+ol li {
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+th {
+    color: hsl(332, 51%, 32%);
+}
+
+th, td {
+    padding: 10px;
+    font-size: 16px;
+}
